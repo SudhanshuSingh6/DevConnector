@@ -1,0 +1,17 @@
+{
+  "name": "devconnector",
+  "version": "1.0.0",
+  "description": "Social Network For Developers",
+  "main": "index.js",
+  "scripts": {
+    "backend": "npm run server --prefix backend",
+    "frontend": "npm start --prefix frontend",
+    "both": "concurrently \"npm run frontend\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
